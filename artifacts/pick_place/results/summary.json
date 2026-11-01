@@ -1,0 +1,62 @@
+{
+  "teacher": {
+    "requested": 24,
+    "physically_successful_candidates": 24,
+    "attempts": 27,
+    "physical_success_rate": 0.8888888888888888,
+    "dataset_selected": 20,
+    "rejected_incomplete_stage_events": 4,
+    "lift_m_mean": 0.18839308666921245,
+    "lift_m_std": 0.0002968869761346455,
+    "transport_xy_m_mean": 0.2739279280330704,
+    "transport_xy_m_std": 0.0027299398601491904,
+    "final_x_m_mean": 0.2532847800599544,
+    "final_y_m_mean": 0.004320873475333125
+  },
+  "dataset": {
+    "episodes": 20,
+    "frames": 12444,
+    "fps": 20
+  },
+  "training": {
+    "repo_id": "local/crane_plus_pick_place",
+    "dataset_root": "/workspace/artifacts/pick_place/data/lerobot",
+    "output": "/workspace/artifacts/pick_place/models/act_pick_place_deterministic",
+    "device": "cpu",
+    "seed": 20261031,
+    "steps": 5000,
+    "batch_size": 8,
+    "learning_rate": 0.0001,
+    "threads": 12,
+    "parameter_count": 670243,
+    "model": {
+      "chunk_size": 32,
+      "use_vae": false,
+      "dim_model": 128,
+      "n_heads": 4,
+      "dim_feedforward": 512,
+      "n_encoder_layers": 2,
+      "n_decoder_layers": 1,
+      "latent_dim": 16,
+      "n_vae_encoder_layers": 2
+    },
+    "wall_time_s": 277.0098832589938,
+    "mean_step_time_s": 0.018914594391122228,
+    "initial_loss": 0.7467058897018433,
+    "final_loss": 0.0820472463965416,
+    "minimum_loss": 0.05038590356707573,
+    "mean_last_20_loss": 0.08621452935039997
+  },
+  "evaluation": {
+    "trials": 5,
+    "successes": 5,
+    "success_rate": 1.0,
+    "stage_success_counts": {
+      "approach": 5,
+      "grasp": 5,
+      "lift": 5,
+      "transport": 5,
+      "place": 5
+    }
+  }
+}

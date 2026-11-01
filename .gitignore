@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and downloaded dependencies
+.pixi/
+vendor/
+.venv/
+venv/
+
+# ROS 2 / colcon generated files
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Temporary files
+tmp/
+.docx_qa*/
+.word_qa*/
+output/word/
+*.tmp
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large reproducible debug streams and raw recording
+artifacts/pick_place/phase1/*_stream.txt
+artifacts/pick_place/media/act_rollout_raw.mp4
+artifacts/pick_place/media/pick_place_act_submission.mp4
+
+# Keep final evaluation data, model, dataset, video and PDF tracked.

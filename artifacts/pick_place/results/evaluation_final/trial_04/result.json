@@ -1,0 +1,38 @@
+{
+  "trial": 4,
+  "run_duration_s": 70.0,
+  "arm_excursion_rad": 2.8287888640662997,
+  "gripper_min_rad": -0.7093,
+  "gripper_max_rad": 0.19682052731513977,
+  "pose_metrics": {
+    "samples": 1355,
+    "initial_xyz_m": [
+      -1.539688601888284e-18,
+      -0.1,
+      1.0110219197469617
+    ],
+    "final_xyz_m": [
+      0.30546373019737366,
+      0.036060306581320804,
+      1.0149999601895578
+    ],
+    "maximum_z_m": 1.1754532527353925,
+    "lift_m": 0.16443133298843082,
+    "transport_xy_m": 0.3343957199084595,
+    "checks": {
+      "lift": true,
+      "transport": true,
+      "goal_x": true,
+      "goal_y": true
+    },
+    "success": true
+  },
+  "stages": {
+    "approach": true,
+    "grasp": true,
+    "lift": true,
+    "transport": true,
+    "place": true
+  },
+  "success": true
+}

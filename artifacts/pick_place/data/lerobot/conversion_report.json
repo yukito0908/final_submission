@@ -1,0 +1,1838 @@
+{
+  "repo_id": "local/crane_plus_pick_place",
+  "fps": 20,
+  "episodes": 20,
+  "frames": 12444,
+  "joint_order": [
+    "crane_plus_joint1",
+    "crane_plus_joint2",
+    "crane_plus_joint4",
+    "crane_plus_joint3",
+    "crane_plus_joint_hand"
+  ],
+  "source_bags": [
+    "/workspace/artifacts/pick_place/data/rosbags",
+    "/workspace/artifacts/pick_place/data/rosbags_supplement"
+  ],
+  "output": "/workspace/artifacts/pick_place/data/lerobot",
+  "rejected": [
+    {
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_004_attempt_05/bag",
+      "reason": "incomplete stage events"
+    },
+    {
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_006_attempt_08/bag",
+      "reason": "incomplete stage events"
+    },
+    {
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_008_attempt_10/bag",
+      "reason": "incomplete stage events"
+    },
+    {
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_011_attempt_14/bag",
+      "reason": "incomplete stage events"
+    }
+  ],
+  "manifest": [
+    {
+      "episode_index": 0,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_000_attempt_01/bag",
+      "frames": 658,
+      "stages": [
+        {
+          "time_s": -0.166273842,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 15.42312003,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 17.816315948,
+          "stage": "lift"
+        },
+        {
+          "time_s": 19.771571179,
+          "stage": "transport"
+        },
+        {
+          "time_s": 30.624921791,
+          "stage": "place"
+        },
+        {
+          "time_s": 32.875106738,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 41.768271507,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 932,
+        "initial_xyz_m": [
+          -1.490118068127562e-18,
+          -0.1,
+          1.0110759144549664
+        ],
+        "final_xyz_m": [
+          0.2537107457370991,
+          0.004463047893427564,
+          1.0649999836853112
+        ],
+        "maximum_z_m": 1.1994190039507426,
+        "lift_m": 0.18834308949577627,
+        "transport_xy_m": 0.27437505513012567,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5714930295944214,
+        -1.159901738166809,
+        -1.7387964725494385,
+        -2.0099165439605713,
+        -0.5235238075256348
+      ],
+      "state_max": [
+        7.42589618312195e-05,
+        1.5018013715744019,
+        0.5914562344551086,
+        1.4245998859405518,
+        0.1108720526099205
+      ],
+      "action_min": [
+        -1.5714993476867676,
+        -1.1599072217941284,
+        -1.739208459854126,
+        -2.009988307952881,
+        -0.5235238075256348
+      ],
+      "action_max": [
+        7.06738792359829e-05,
+        1.5053004026412964,
+        0.5914562344551086,
+        1.4291149377822876,
+        0.17448215186595917
+      ]
+    },
+    {
+      "episode_index": 1,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_001_attempt_02/bag",
+      "frames": 560,
+      "stages": [
+        {
+          "time_s": -0.171734707,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 12.558673284,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 14.79962751,
+          "stage": "lift"
+        },
+        {
+          "time_s": 16.591674093,
+          "stage": "transport"
+        },
+        {
+          "time_s": 25.727790353,
+          "stage": "place"
+        },
+        {
+          "time_s": 27.976291058,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 36.661551636,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 843,
+        "initial_xyz_m": [
+          -1.2589726216553454e-18,
+          -0.1,
+          1.0111959026949768
+        ],
+        "final_xyz_m": [
+          0.25155936343836155,
+          0.005211646434384124,
+          1.064999957290347
+        ],
+        "maximum_z_m": 1.1993824778477242,
+        "lift_m": 0.1881865751527474,
+        "transport_xy_m": 0.27267490511403414,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5708858966827393,
+        -1.1599180698394775,
+        -1.7380976676940918,
+        -2.0100255012512207,
+        -0.5235005617141724
+      ],
+      "state_max": [
+        0.0001416968007106334,
+        1.0593267679214478,
+        0.5896445512771606,
+        2.4746186682023108e-05,
+        0.11123242229223251
+      ],
+      "action_min": [
+        -1.5707436800003052,
+        -1.1599292755126953,
+        -1.739874243736267,
+        -2.0100936889648438,
+        -0.5235008597373962
+      ],
+      "action_max": [
+        0.00014169681526254863,
+        1.0593267679214478,
+        0.5896445512771606,
+        2.4746186682023108e-05,
+        0.17443428933620453
+      ]
+    },
+    {
+      "episode_index": 2,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_002_attempt_03/bag",
+      "frames": 621,
+      "stages": [
+        {
+          "time_s": -0.172766298,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 14.82893207,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 17.254229835,
+          "stage": "lift"
+        },
+        {
+          "time_s": 19.19550336,
+          "stage": "transport"
+        },
+        {
+          "time_s": 28.887583728,
+          "stage": "place"
+        },
+        {
+          "time_s": 31.040959807,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 39.650630079,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 893,
+        "initial_xyz_m": [
+          -1.264606472065051e-18,
+          -0.1,
+          1.0112179005389788
+        ],
+        "final_xyz_m": [
+          0.2520341294756934,
+          0.005600529619278379,
+          1.0649999323539614
+        ],
+        "maximum_z_m": 1.1994445054829534,
+        "lift_m": 0.1882266049439747,
+        "transport_xy_m": 0.2732630130047656,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5716029405593872,
+        -1.159935474395752,
+        -1.7369521856307983,
+        -2.0100009441375732,
+        -0.5235185027122498
+      ],
+      "state_max": [
+        0.00040407205233350396,
+        1.5017532110214233,
+        0.5894320607185364,
+        1.423808217048645,
+        0.111994169652462
+      ],
+      "action_min": [
+        -1.5714263916015625,
+        -1.159935474395752,
+        -1.7381093502044678,
+        -2.0100009441375732,
+        -0.5235185027122498
+      ],
+      "action_max": [
+        0.00040309986798092723,
+        1.5048784017562866,
+        0.5894320607185364,
+        1.427839994430542,
+        0.17447897791862488
+      ]
+    },
+    {
+      "episode_index": 3,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_003_attempt_04/bag",
+      "frames": 604,
+      "stages": [
+        {
+          "time_s": -0.171058627,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 14.9550363,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 17.255223643,
+          "stage": "lift"
+        },
+        {
+          "time_s": 19.205236484,
+          "stage": "transport"
+        },
+        {
+          "time_s": 28.061100191,
+          "stage": "place"
+        },
+        {
+          "time_s": 30.193267277,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 38.76728015,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 876,
+        "initial_xyz_m": [
+          -1.1372101568762555e-18,
+          -0.1,
+          1.011323890150988
+        ],
+        "final_xyz_m": [
+          0.24891856107401905,
+          0.0024410143276729322,
+          1.0649999600897126
+        ],
+        "maximum_z_m": 1.1994044153180168,
+        "lift_m": 0.18808052516702878,
+        "transport_xy_m": 0.26917394276497614,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5709404945373535,
+        -1.159903645515442,
+        -1.7384531497955322,
+        -2.0099191665649414,
+        -0.5235150456428528
+      ],
+      "state_max": [
+        -8.755385351832956e-06,
+        1.5036706924438477,
+        0.5907240509986877,
+        1.426090955734253,
+        0.1120389923453331
+      ],
+      "action_min": [
+        -1.5711427927017212,
+        -1.1599260568618774,
+        -1.7398853302001953,
+        -2.0100274085998535,
+        -0.5235150456428528
+      ],
+      "action_max": [
+        -7.220660791062983e-06,
+        1.5068429708480835,
+        0.5907240509986877,
+        1.4301831722259521,
+        0.1744956523180008
+      ]
+    },
+    {
+      "episode_index": 4,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_005_attempt_07/bag",
+      "frames": 566,
+      "stages": [
+        {
+          "time_s": -0.16943281,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 12.533411995,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 14.782530109,
+          "stage": "lift"
+        },
+        {
+          "time_s": 16.80525357,
+          "stage": "transport"
+        },
+        {
+          "time_s": 26.040797886,
+          "stage": "place"
+        },
+        {
+          "time_s": 28.295372354,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 37.006835117,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 847,
+        "initial_xyz_m": [
+          -1.2436740300883961e-18,
+          -0.1,
+          1.0111579064189735
+        ],
+        "final_xyz_m": [
+          0.2556400705598826,
+          0.005082014968544629,
+          1.064999932796969
+        ],
+        "maximum_z_m": 1.1997245510876295,
+        "lift_m": 0.18856664466865602,
+        "transport_xy_m": 0.2763947820522507,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5717989206314087,
+        -1.159912347793579,
+        -1.735504388809204,
+        -2.009937047958374,
+        -0.523509681224823
+      ],
+      "state_max": [
+        2.72134602710139e-05,
+        1.0573396682739258,
+        0.5903344750404358,
+        -3.236662087147124e-05,
+        0.1294557750225067
+      ],
+      "action_min": [
+        -1.5716898441314697,
+        -1.1599420309066772,
+        -1.7387980222702026,
+        -2.009937047958374,
+        -0.523509681224823
+      ],
+      "action_max": [
+        8.865113341016695e-05,
+        1.0573396682739258,
+        0.5903344750404358,
+        -3.236662087147124e-05,
+        0.17444606125354767
+      ]
+    },
+    {
+      "episode_index": 5,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_007_attempt_09/bag",
+      "frames": 638,
+      "stages": [
+        {
+          "time_s": -0.172467827,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 13.043825489,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 16.060028907,
+          "stage": "lift"
+        },
+        {
+          "time_s": 18.280347342,
+          "stage": "transport"
+        },
+        {
+          "time_s": 29.41765604,
+          "stage": "place"
+        },
+        {
+          "time_s": 31.861855751,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 41.714524015,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 931,
+        "initial_xyz_m": [
+          -3.931964310415631e-19,
+          -0.1,
+          1.0105979612989247
+        ],
+        "final_xyz_m": [
+          0.25391435368456733,
+          0.004728446162278352,
+          1.064999958585767
+        ],
+        "maximum_z_m": 1.1993131179668501,
+        "lift_m": 0.1887151566679255,
+        "transport_xy_m": 0.2746644251493389,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5709185600280762,
+        -1.1599658727645874,
+        -1.7373217344284058,
+        -2.0099520683288574,
+        -0.523525595664978
+      ],
+      "state_max": [
+        0.00010048952390206978,
+        1.059083104133606,
+        0.592043399810791,
+        -9.498927101958543e-05,
+        0.11422930657863617
+      ],
+      "action_min": [
+        -1.5714776515960693,
+        -1.1599658727645874,
+        -1.739013910293579,
+        -2.0099520683288574,
+        -0.523525595664978
+      ],
+      "action_max": [
+        9.751630568644032e-05,
+        1.059083104133606,
+        0.592043399810791,
+        -9.498927101958543e-05,
+        0.17444156110286713
+      ]
+    },
+    {
+      "episode_index": 6,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_009_attempt_11/bag",
+      "frames": 692,
+      "stages": [
+        {
+          "time_s": -0.171390761,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 15.157261267,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 18.002875257,
+          "stage": "lift"
+        },
+        {
+          "time_s": 20.749805823,
+          "stage": "transport"
+        },
+        {
+          "time_s": 32.25830255,
+          "stage": "place"
+        },
+        {
+          "time_s": 34.590038181,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 44.476913267,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 979,
+        "initial_xyz_m": [
+          -9.445379517645709e-19,
+          -0.1,
+          1.0099920206868718
+        ],
+        "final_xyz_m": [
+          0.25268528449322997,
+          0.0037980315082592484,
+          1.064999971404834
+        ],
+        "maximum_z_m": 1.1992994016152354,
+        "lift_m": 0.18930738092836363,
+        "transport_xy_m": 0.27317372557479636,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5716615915298462,
+        -1.159943699836731,
+        -1.7358944416046143,
+        -2.0100464820861816,
+        -0.523515522480011
+      ],
+      "state_max": [
+        4.301238732296042e-05,
+        1.0576037168502808,
+        0.5906477570533752,
+        -2.7733998649637215e-05,
+        0.11181068420410156
+      ],
+      "action_min": [
+        -1.5714093446731567,
+        -1.159943699836731,
+        -1.7379313707351685,
+        -2.0100464820861816,
+        -0.523515522480011
+      ],
+      "action_max": [
+        4.301238732296042e-05,
+        1.0576037168502808,
+        0.5906477570533752,
+        -2.773399683064781e-05,
+        0.17445196211338043
+      ]
+    },
+    {
+      "episode_index": 7,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_010_attempt_13/bag",
+      "frames": 658,
+      "stages": [
+        {
+          "time_s": -0.175626829,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 16.42434841,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 18.686622623,
+          "stage": "lift"
+        },
+        {
+          "time_s": 20.575334691,
+          "stage": "transport"
+        },
+        {
+          "time_s": 30.42661575,
+          "stage": "place"
+        },
+        {
+          "time_s": 32.857589325,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 43.030338859,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 975,
+        "initial_xyz_m": [
+          -6.829322497483562e-19,
+          -0.1,
+          1.0106579554189299
+        ],
+        "final_xyz_m": [
+          0.2543736347461457,
+          0.004725289662204066,
+          1.0649999628063669
+        ],
+        "maximum_z_m": 1.199484635413415,
+        "lift_m": 0.1888266799944851,
+        "transport_xy_m": 0.27508786296163285,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5713435411453247,
+        -1.1599030494689941,
+        -1.7375915050506592,
+        -2.010003089904785,
+        -0.5235028862953186
+      ],
+      "state_max": [
+        0.0004334054247010499,
+        1.503835916519165,
+        0.592004656791687,
+        1.426305890083313,
+        0.11365797370672226
+      ],
+      "action_min": [
+        -1.5711535215377808,
+        -1.1600756645202637,
+        -1.738997459411621,
+        -2.010003089904785,
+        -0.5235028862953186
+      ],
+      "action_max": [
+        0.00042924066656269133,
+        1.5067439079284668,
+        0.592004656791687,
+        1.4300577640533447,
+        0.17443931102752686
+      ]
+    },
+    {
+      "episode_index": 8,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_012_attempt_15/bag",
+      "frames": 598,
+      "stages": [
+        {
+          "time_s": -0.169169251,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 12.892264189,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 15.236158656,
+          "stage": "lift"
+        },
+        {
+          "time_s": 17.353691858,
+          "stage": "transport"
+        },
+        {
+          "time_s": 27.561879942,
+          "stage": "place"
+        },
+        {
+          "time_s": 29.859852511,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 38.751490083,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 877,
+        "initial_xyz_m": [
+          -1.9695932728130544e-18,
+          -0.1,
+          1.0111379083789718
+        ],
+        "final_xyz_m": [
+          0.25446407626720885,
+          0.0047580643974084545,
+          1.0649999585324428
+        ],
+        "maximum_z_m": 1.199382950740083,
+        "lift_m": 0.18824504236111128,
+        "transport_xy_m": 0.27518397149328205,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.571101427078247,
+        -1.159904956817627,
+        -1.7359293699264526,
+        -2.0100221633911133,
+        -0.523507297039032
+      ],
+      "state_max": [
+        8.488919411320239e-05,
+        1.0590691566467285,
+        0.589013934135437,
+        4.894974335911684e-05,
+        0.11350709944963455
+      ],
+      "action_min": [
+        -1.571056604385376,
+        -1.1599910259246826,
+        -1.7387428283691406,
+        -2.0100221633911133,
+        -0.523507297039032
+      ],
+      "action_max": [
+        8.488919411320239e-05,
+        1.0590691566467285,
+        0.589013934135437,
+        4.8949746997095644e-05,
+        0.17445796728134155
+      ]
+    },
+    {
+      "episode_index": 9,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_013_attempt_16/bag",
+      "frames": 588,
+      "stages": [
+        {
+          "time_s": -0.167352087,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 12.553361337,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 14.913114607,
+          "stage": "lift"
+        },
+        {
+          "time_s": 16.932375793,
+          "stage": "transport"
+        },
+        {
+          "time_s": 27.203597571,
+          "stage": "place"
+        },
+        {
+          "time_s": 29.39235403,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 38.001627478,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 878,
+        "initial_xyz_m": [
+          -1.2296826065822367e-18,
+          -0.1,
+          1.011083913670967
+        ],
+        "final_xyz_m": [
+          0.25662385926849135,
+          0.004682710945699818,
+          1.0649999859484043
+        ],
+        "maximum_z_m": 1.1995650981281345,
+        "lift_m": 0.18848118445716744,
+        "transport_xy_m": 0.2771538834597044,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5707430839538574,
+        -1.160041093826294,
+        -1.7357300519943237,
+        -2.0099267959594727,
+        -0.5235061049461365
+      ],
+      "state_max": [
+        7.164710405049846e-05,
+        1.0574579238891602,
+        0.5920773148536682,
+        -8.587874617660418e-05,
+        0.12578579783439636
+      ],
+      "action_min": [
+        -1.5715396404266357,
+        -1.1600412130355835,
+        -1.73810613155365,
+        -2.009967565536499,
+        -0.5235061049461365
+      ],
+      "action_max": [
+        7.164710405049846e-05,
+        1.0574579238891602,
+        0.5920773148536682,
+        -8.587874617660418e-05,
+        0.1744362711906433
+      ]
+    },
+    {
+      "episode_index": 10,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_014_attempt_17/bag",
+      "frames": 616,
+      "stages": [
+        {
+          "time_s": -1.029105794,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 15.071110687,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 17.372413109,
+          "stage": "lift"
+        },
+        {
+          "time_s": 19.352302276,
+          "stage": "transport"
+        },
+        {
+          "time_s": 28.580603101,
+          "stage": "place"
+        },
+        {
+          "time_s": 30.775923315,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 39.518980588,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 907,
+        "initial_xyz_m": [
+          -1.5512328289698085e-18,
+          -0.1,
+          1.0111999023029772
+        ],
+        "final_xyz_m": [
+          0.2557298292960747,
+          0.004498489497747557,
+          1.064999977339335
+        ],
+        "maximum_z_m": 1.1995575674755752,
+        "lift_m": 0.188357665172598,
+        "transport_xy_m": 0.2762565472511201,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5714424848556519,
+        -1.1599185466766357,
+        -1.7388845682144165,
+        -2.0100412368774414,
+        -0.5235116481781006
+      ],
+      "state_max": [
+        0.00010898083564825356,
+        1.5033838748931885,
+        0.5898280739784241,
+        1.4252334833145142,
+        0.11539818346500397
+      ],
+      "action_min": [
+        -1.5713542699813843,
+        -1.1599373817443848,
+        -1.7391973733901978,
+        -2.0100412368774414,
+        -0.5235116481781006
+      ],
+      "action_max": [
+        0.00010898083564825356,
+        1.5067662000656128,
+        0.5898280739784241,
+        1.429596185684204,
+        0.174445241689682
+      ]
+    },
+    {
+      "episode_index": 11,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_015_attempt_18/bag",
+      "frames": 624,
+      "stages": [
+        {
+          "time_s": -0.170322555,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 15.086989274,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 17.402065324,
+          "stage": "lift"
+        },
+        {
+          "time_s": 19.352594115,
+          "stage": "transport"
+        },
+        {
+          "time_s": 29.017784909,
+          "stage": "place"
+        },
+        {
+          "time_s": 31.154735149,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 40.015881191,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 919,
+        "initial_xyz_m": [
+          -1.4837505179484962e-18,
+          -0.1,
+          1.0111679054389744
+        ],
+        "final_xyz_m": [
+          0.24990112249061475,
+          0.0024579428262281487,
+          1.0649999616841812
+        ],
+        "maximum_z_m": 1.1993884800909405,
+        "lift_m": 0.18822057465196607,
+        "transport_xy_m": 0.2700892464913253,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5709995031356812,
+        -1.1599626541137695,
+        -1.7397136688232422,
+        -2.009915351867676,
+        -0.523500382900238
+      ],
+      "state_max": [
+        0.00015967317449394614,
+        1.5035104751586914,
+        0.590785026550293,
+        1.425376534461975,
+        0.11132968217134476
+      ],
+      "action_min": [
+        -1.570969820022583,
+        -1.1599626541137695,
+        -1.7399967908859253,
+        -2.009967803955078,
+        -0.5235537886619568
+      ],
+      "action_max": [
+        0.00015807706222403795,
+        1.506399154663086,
+        0.590785026550293,
+        1.4291026592254639,
+        0.1744358241558075
+      ]
+    },
+    {
+      "episode_index": 12,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_016_attempt_19/bag",
+      "frames": 614,
+      "stages": [
+        {
+          "time_s": -0.170598753,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 14.893684279,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 17.200543982,
+          "stage": "lift"
+        },
+        {
+          "time_s": 19.136789163,
+          "stage": "transport"
+        },
+        {
+          "time_s": 28.474354246,
+          "stage": "place"
+        },
+        {
+          "time_s": 30.687031585,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 39.336682535,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 889,
+        "initial_xyz_m": [
+          -1.6824821127226967e-18,
+          -0.1,
+          1.011163905830974
+        ],
+        "final_xyz_m": [
+          0.25206007550767795,
+          0.003984528678921365,
+          1.0649999261146925
+        ],
+        "maximum_z_m": 1.1992678244120198,
+        "lift_m": 0.1881039185810458,
+        "transport_xy_m": 0.27266658003780686,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.571524977684021,
+        -1.1600290536880493,
+        -1.7377769947052002,
+        -2.0099358558654785,
+        -0.5235317349433899
+      ],
+      "state_max": [
+        6.634321471210569e-05,
+        1.5021370649337769,
+        0.5899704098701477,
+        1.4243710041046143,
+        0.11265341192483902
+      ],
+      "action_min": [
+        -1.571398377418518,
+        -1.1600290536880493,
+        -1.7391464710235596,
+        -2.010054111480713,
+        -0.5235317349433899
+      ],
+      "action_max": [
+        6.634321471210569e-05,
+        1.5049307346343994,
+        0.5899704098701477,
+        1.4279783964157104,
+        0.17447920143604279
+      ]
+    },
+    {
+      "episode_index": 13,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_017_attempt_20/bag",
+      "frames": 621,
+      "stages": [
+        {
+          "time_s": -0.188515211,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 14.929947068,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 17.320913683,
+          "stage": "lift"
+        },
+        {
+          "time_s": 19.247223526,
+          "stage": "transport"
+        },
+        {
+          "time_s": 28.876727546,
+          "stage": "place"
+        },
+        {
+          "time_s": 31.024116717,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 39.611478579,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 894,
+        "initial_xyz_m": [
+          -1.4465304909593202e-18,
+          -0.1,
+          1.01134588799499
+        ],
+        "final_xyz_m": [
+          0.254385742185044,
+          0.00511731658805522,
+          1.0649999598835704
+        ],
+        "maximum_z_m": 1.199480218723776,
+        "lift_m": 0.18813433072878616,
+        "transport_xy_m": 0.2752485350982074,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5711028575897217,
+        -1.1600050926208496,
+        -1.7383638620376587,
+        -2.0099093914031982,
+        -0.5235081911087036
+      ],
+      "state_max": [
+        0.00037691177567467093,
+        1.5022523403167725,
+        0.5897625684738159,
+        1.4247015714645386,
+        0.11113954335451126
+      ],
+      "action_min": [
+        -1.5712472200393677,
+        -1.1600050926208496,
+        -1.738839864730835,
+        -2.009967803955078,
+        -0.5235081911087036
+      ],
+      "action_max": [
+        0.00037473608972504735,
+        1.505394458770752,
+        0.5897625684738159,
+        1.428755283355713,
+        0.17449787259101868
+      ]
+    },
+    {
+      "episode_index": 14,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_018_attempt_21/bag",
+      "frames": 605,
+      "stages": [
+        {
+          "time_s": -0.170942893,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 14.910502819,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 17.149058628,
+          "stage": "lift"
+        },
+        {
+          "time_s": 19.019327018,
+          "stage": "transport"
+        },
+        {
+          "time_s": 28.133340777,
+          "stage": "place"
+        },
+        {
+          "time_s": 30.236277591,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 38.829440722,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 878,
+        "initial_xyz_m": [
+          -1.4109834002754245e-18,
+          -0.1,
+          1.011265895834983
+        ],
+        "final_xyz_m": [
+          0.25290980955300496,
+          0.004941260848136673,
+          1.064999940211948
+        ],
+        "maximum_z_m": 1.1993066375053725,
+        "lift_m": 0.18804074167038953,
+        "transport_xy_m": 0.27381753047702023,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5711767673492432,
+        -1.1599857807159424,
+        -1.7378458976745605,
+        -2.0099310874938965,
+        -0.5235188603401184
+      ],
+      "state_max": [
+        0.00021005512098781765,
+        1.5026358366012573,
+        0.5906857848167419,
+        1.4247441291809082,
+        0.11314696073532104
+      ],
+      "action_min": [
+        -1.5709638595581055,
+        -1.1599857807159424,
+        -1.7381713390350342,
+        -2.0100114345550537,
+        -0.5235188603401184
+      ],
+      "action_max": [
+        0.0002090282941935584,
+        1.5058999061584473,
+        0.5906857848167419,
+        1.4289547204971313,
+        0.17443875968456268
+      ]
+    },
+    {
+      "episode_index": 15,
+      "source": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_019_attempt_22/bag",
+      "frames": 570,
+      "stages": [
+        {
+          "time_s": -0.165996238,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 12.682163838,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 14.909689225,
+          "stage": "lift"
+        },
+        {
+          "time_s": 16.869188247,
+          "stage": "transport"
+        },
+        {
+          "time_s": 26.18736202,
+          "stage": "place"
+        },
+        {
+          "time_s": 28.497763731,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 37.126651803,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 849,
+        "initial_xyz_m": [
+          -1.5695987165973316e-18,
+          -0.1,
+          1.01123189916698
+        ],
+        "final_xyz_m": [
+          0.2581440774144708,
+          0.004856693431332144,
+          1.0649999861809893
+        ],
+        "maximum_z_m": 1.1995023014575592,
+        "lift_m": 0.18827040229057923,
+        "transport_xy_m": 0.2786275127504832,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5717917680740356,
+        -1.1599041223526,
+        -1.736997127532959,
+        -2.0099987983703613,
+        -0.5235549807548523
+      ],
+      "state_max": [
+        0.00029637885745614767,
+        1.0595134496688843,
+        0.5906506180763245,
+        -9.241545194527134e-05,
+        0.125464528799057
+      ],
+      "action_min": [
+        -1.5717816352844238,
+        -1.1599249839782715,
+        -1.7393165826797485,
+        -2.0099987983703613,
+        -0.5235549807548523
+      ],
+      "action_max": [
+        0.00029607859323732555,
+        1.0595134496688843,
+        0.5906506180763245,
+        -9.241545194527134e-05,
+        0.17444126307964325
+      ]
+    },
+    {
+      "episode_index": 16,
+      "source": "/workspace/artifacts/pick_place/data/rosbags_supplement/attempts/pick_place_000_attempt_01/bag",
+      "frames": 596,
+      "stages": [
+        {
+          "time_s": -0.168899234,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 14.76764609,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 17.011867541,
+          "stage": "lift"
+        },
+        {
+          "time_s": 18.934363825,
+          "stage": "transport"
+        },
+        {
+          "time_s": 27.6285826,
+          "stage": "place"
+        },
+        {
+          "time_s": 29.761679955,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 38.408545218,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 876,
+        "initial_xyz_m": [
+          -1.6045347065957766e-18,
+          -0.1,
+          1.0110679152389657
+        ],
+        "final_xyz_m": [
+          0.25419521337173245,
+          0.004602023103341076,
+          1.064999960386501
+        ],
+        "maximum_z_m": 1.1994577023902206,
+        "lift_m": 0.18838978715125498,
+        "transport_xy_m": 0.2748759533651725,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5709677934646606,
+        -1.159991979598999,
+        -1.7381155490875244,
+        -2.009936809539795,
+        -0.5235122442245483
+      ],
+      "state_max": [
+        6.642809603363276e-05,
+        1.5010098218917847,
+        0.5911584496498108,
+        1.4225692749023438,
+        0.1112375557422638
+      ],
+      "action_min": [
+        -1.571427583694458,
+        -1.1600966453552246,
+        -1.7383754253387451,
+        -2.009936809539795,
+        -0.5235122442245483
+      ],
+      "action_max": [
+        6.642809603363276e-05,
+        1.5053030252456665,
+        0.5911584496498108,
+        1.4281071424484253,
+        0.1744358241558075
+      ]
+    },
+    {
+      "episode_index": 17,
+      "source": "/workspace/artifacts/pick_place/data/rosbags_supplement/attempts/pick_place_001_attempt_02/bag",
+      "frames": 592,
+      "stages": [
+        {
+          "time_s": -0.169952585,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 13.369832343,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 15.861488416,
+          "stage": "lift"
+        },
+        {
+          "time_s": 18.035042453,
+          "stage": "transport"
+        },
+        {
+          "time_s": 27.344120475,
+          "stage": "place"
+        },
+        {
+          "time_s": 29.556028819,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 38.630838423,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 898,
+        "initial_xyz_m": [
+          -1.5098136896179301e-18,
+          -0.1,
+          1.0110879132789674
+        ],
+        "final_xyz_m": [
+          0.25178626465950954,
+          0.003746710413568186,
+          1.0649999317526524
+        ],
+        "maximum_z_m": 1.1995410683333656,
+        "lift_m": 0.1884531550543982,
+        "transport_xy_m": 0.27232279190847275,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5710039138793945,
+        -1.159928321838379,
+        -1.7371267080307007,
+        -2.009918451309204,
+        -0.5235041379928589
+      ],
+      "state_max": [
+        0.00047316504060290754,
+        1.0590319633483887,
+        0.5904260873794556,
+        -3.803783329203725e-05,
+        0.11068855971097946
+      ],
+      "action_min": [
+        -1.570851445198059,
+        -1.1600170135498047,
+        -1.7388501167297363,
+        -2.009962558746338,
+        -0.5235041379928589
+      ],
+      "action_max": [
+        0.00047235720558092,
+        1.0590319633483887,
+        0.5904260873794556,
+        -3.803783329203725e-05,
+        0.17448963224887848
+      ]
+    },
+    {
+      "episode_index": 18,
+      "source": "/workspace/artifacts/pick_place/data/rosbags_supplement/attempts/pick_place_002_attempt_03/bag",
+      "frames": 627,
+      "stages": [
+        {
+          "time_s": -0.166571631,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 15.707607775,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 18.026948027,
+          "stage": "lift"
+        },
+        {
+          "time_s": 20.027493538,
+          "stage": "transport"
+        },
+        {
+          "time_s": 29.151352049,
+          "stage": "place"
+        },
+        {
+          "time_s": 31.31130075,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 39.909366815,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 917,
+        "initial_xyz_m": [
+          -1.1566041174108636e-18,
+          -0.1,
+          1.0108459369949463
+        ],
+        "final_xyz_m": [
+          0.24674856182955046,
+          0.0020018886373328183,
+          1.0649999565756294
+        ],
+        "maximum_z_m": 1.1994924117330634,
+        "lift_m": 0.18864647473811713,
+        "transport_xy_m": 0.2670004457871453,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5713143348693848,
+        -1.1599313020706177,
+        -1.7393180131912231,
+        -2.0099291801452637,
+        -0.5235183835029602
+      ],
+      "state_max": [
+        2.9174818337196484e-05,
+        1.5018671751022339,
+        0.5893477201461792,
+        1.4229823350906372,
+        0.11134064942598343
+      ],
+      "action_min": [
+        -1.5712482929229736,
+        -1.1599313020706177,
+        -1.7396316528320312,
+        -2.0099291801452637,
+        -0.5235183835029602
+      ],
+      "action_max": [
+        2.9174820156185888e-05,
+        1.5057278871536255,
+        0.5893477201461792,
+        1.4279614686965942,
+        0.17443786561489105
+      ]
+    },
+    {
+      "episode_index": 19,
+      "source": "/workspace/artifacts/pick_place/data/rosbags_supplement/attempts/pick_place_003_attempt_05/bag",
+      "frames": 796,
+      "stages": [
+        {
+          "time_s": -0.16857463,
+          "stage": "reset"
+        },
+        {
+          "time_s": 0.0,
+          "stage": "approach"
+        },
+        {
+          "time_s": 23.472175169,
+          "stage": "grasp"
+        },
+        {
+          "time_s": 25.710819903,
+          "stage": "lift"
+        },
+        {
+          "time_s": 27.807711141,
+          "stage": "transport"
+        },
+        {
+          "time_s": 37.559943934,
+          "stage": "place"
+        },
+        {
+          "time_s": 39.763378841,
+          "stage": "retreat"
+        },
+        {
+          "time_s": 48.478476014,
+          "stage": "complete"
+        }
+      ],
+      "pose_metrics": {
+        "samples": 845,
+        "initial_xyz_m": [
+          -1.577308734050519e-18,
+          -0.1,
+          1.0111379083789718
+        ],
+        "final_xyz_m": [
+          0.2559108261467102,
+          0.004719819562841734,
+          1.0649999606124718
+        ],
+        "maximum_z_m": 1.1994037078868494,
+        "lift_m": 0.18826579950787758,
+        "transport_xy_m": 0.27650785078974854,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "state_min": [
+        -1.5714348554611206,
+        -1.159995198249817,
+        -1.7372318506240845,
+        -2.0099003314971924,
+        -0.523499608039856
+      ],
+      "state_max": [
+        0.00031740026315674186,
+        1.0593329668045044,
+        0.5895132422447205,
+        -7.739167631370947e-05,
+        0.11672856658697128
+      ],
+      "action_min": [
+        -1.5713785886764526,
+        -1.159995198249817,
+        -1.73939847946167,
+        -2.009963274002075,
+        -0.5235084295272827
+      ],
+      "action_max": [
+        0.00031495021539740264,
+        1.0593329668045044,
+        0.5895132422447205,
+        -7.739166903775185e-05,
+        0.17446915805339813
+      ]
+    }
+  ]
+}

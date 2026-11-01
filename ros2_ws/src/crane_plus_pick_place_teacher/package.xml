@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>crane_plus_pick_place_teacher</name>
+  <version>0.1.0</version>
+  <description>Instrumented CRANE+ V2 Pick and Place teacher based on the official sample.</description>
+  <maintainer email="yukito0908@users.noreply.github.com">yukito0908</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>control_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

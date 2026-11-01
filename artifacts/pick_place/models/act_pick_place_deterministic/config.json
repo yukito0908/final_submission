@@ -1,0 +1,54 @@
+{
+    "type": "act",
+    "n_obs_steps": 1,
+    "normalization_mapping": {
+        "VISUAL": "MEAN_STD",
+        "STATE": "MEAN_STD",
+        "ACTION": "MEAN_STD"
+    },
+    "input_features": {
+        "observation.state": {
+            "type": "STATE",
+            "shape": [
+                5
+            ]
+        },
+        "observation.environment_state": {
+            "type": "ENV",
+            "shape": [
+                5
+            ]
+        }
+    },
+    "output_features": {
+        "action": {
+            "type": "ACTION",
+            "shape": [
+                5
+            ]
+        }
+    },
+    "device": "cpu",
+    "use_amp": false,
+    "chunk_size": 32,
+    "n_action_steps": 32,
+    "vision_backbone": "resnet18",
+    "pretrained_backbone_weights": null,
+    "replace_final_stride_with_dilation": false,
+    "pre_norm": false,
+    "dim_model": 128,
+    "n_heads": 4,
+    "dim_feedforward": 512,
+    "feedforward_activation": "relu",
+    "n_encoder_layers": 2,
+    "n_decoder_layers": 1,
+    "use_vae": false,
+    "latent_dim": 16,
+    "n_vae_encoder_layers": 2,
+    "temporal_ensemble_coeff": null,
+    "dropout": 0.1,
+    "kl_weight": 10.0,
+    "optimizer_lr": 1e-05,
+    "optimizer_weight_decay": 0.0001,
+    "optimizer_lr_backbone": 1e-05
+}

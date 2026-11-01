@@ -1,0 +1,53 @@
+{
+  "episodes": 1,
+  "valid": 1,
+  "invalid": 0,
+  "total_messages": 4512,
+  "rows": [
+    {
+      "episode": "pick_place_000",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags_supplement/attempts/pick_place_000_attempt_01/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags_supplement/attempts/pick_place_000_attempt_01/bag",
+      "counts": {
+        "/joint_states": 3729,
+        "/pick_place/action": 775,
+        "/pick_place/stage": 8
+      },
+      "stages": [
+        "reset",
+        "approach",
+        "grasp",
+        "lift",
+        "transport",
+        "place",
+        "retreat",
+        "complete"
+      ],
+      "pose_metrics": {
+        "samples": 876,
+        "initial_xyz_m": [
+          -1.6045347065957766e-18,
+          -0.1,
+          1.0110679152389657
+        ],
+        "final_xyz_m": [
+          0.25419521337173245,
+          0.004602023103341076,
+          1.064999960386501
+        ],
+        "maximum_z_m": 1.1994577023902206,
+        "lift_m": 0.18838978715125498,
+        "transport_xy_m": 0.2748759533651725,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    }
+  ]
+}

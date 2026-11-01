@@ -1,0 +1,32 @@
+{
+  "episode": "pick_place_003",
+  "attempt": 4,
+  "teacher_returncode": 0,
+  "duration_wall_s": -1.2721288204193115,
+  "bag_path": "/workspace/artifacts/pick_place/data/rosbags_supplement/attempts/pick_place_003_attempt_04/bag",
+  "pose_path": "/workspace/artifacts/pick_place/data/rosbags_supplement/attempts/pick_place_003_attempt_04/cube_pose.csv",
+  "pose_metrics": {
+    "samples": 201,
+    "initial_xyz_m": [
+      -1.1172830492627119e-18,
+      -0.1,
+      1.011221900146979
+    ],
+    "final_xyz_m": [
+      -3.3429964623388852e-18,
+      -0.09999999999999999,
+      1.0149991330551509
+    ],
+    "maximum_z_m": 1.014999133055151,
+    "lift_m": 0.0037772329081720013,
+    "transport_xy_m": 1.4055134102379484e-17,
+    "checks": {
+      "lift": false,
+      "transport": false,
+      "goal_x": false,
+      "goal_y": false
+    },
+    "success": false
+  },
+  "success": false
+}

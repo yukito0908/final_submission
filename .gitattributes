@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.db3 binary
+*.mp4 binary
+*.parquet binary
+*.pdf binary
+*.png binary
+*.safetensors binary

@@ -1,0 +1,12 @@
+seed: 20261031
+episodes: 20
+fps: 20
+cube_entity_id: 20
+cube_entity_name: wood_cube_5cm
+cube_initial_pose: [0.0, -0.1, 1.0, 0.0, 0.0, 0.0, 1.0]
+reset_settle_s: 12.0
+minimum_lift_m: 0.05
+minimum_transport_xy_m: 0.15
+goal_x_range_m: [0.15, 0.35]
+goal_y_abs_max_m: 0.08
+teacher_timeout_s: 90.0

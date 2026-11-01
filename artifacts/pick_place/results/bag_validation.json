@@ -1,0 +1,716 @@
+{
+  "episodes": 20,
+  "valid": 16,
+  "invalid": 4,
+  "total_messages": 87743,
+  "rows": [
+    {
+      "episode": "pick_place_000",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_000_attempt_01/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_000_attempt_01/bag",
+      "counts": {
+        "/joint_states": 3720,
+        "/pick_place/action": 842,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 932,
+        "initial_xyz_m": [
+          -1.490118068127562e-18,
+          -0.1,
+          1.0110759144549664
+        ],
+        "final_xyz_m": [
+          0.2537107457370991,
+          0.004463047893427564,
+          1.0649999836853112
+        ],
+        "maximum_z_m": 1.1994190039507426,
+        "lift_m": 0.18834308949577627,
+        "transport_xy_m": 0.27437505513012567,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_001",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_001_attempt_02/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_001_attempt_02/bag",
+      "counts": {
+        "/joint_states": 3524,
+        "/pick_place/action": 741,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 843,
+        "initial_xyz_m": [
+          -1.2589726216553454e-18,
+          -0.1,
+          1.0111959026949768
+        ],
+        "final_xyz_m": [
+          0.25155936343836155,
+          0.005211646434384124,
+          1.064999957290347
+        ],
+        "maximum_z_m": 1.1993824778477242,
+        "lift_m": 0.1881865751527474,
+        "transport_xy_m": 0.27267490511403414,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_002",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_002_attempt_03/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_002_attempt_03/bag",
+      "counts": {
+        "/joint_states": 3629,
+        "/pick_place/action": 801,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 893,
+        "initial_xyz_m": [
+          -1.264606472065051e-18,
+          -0.1,
+          1.0112179005389788
+        ],
+        "final_xyz_m": [
+          0.2520341294756934,
+          0.005600529619278379,
+          1.0649999323539614
+        ],
+        "maximum_z_m": 1.1994445054829534,
+        "lift_m": 0.1882266049439747,
+        "transport_xy_m": 0.2732630130047656,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_003",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_003_attempt_04/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_003_attempt_04/bag",
+      "counts": {
+        "/joint_states": 3625,
+        "/pick_place/action": 783,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 876,
+        "initial_xyz_m": [
+          -1.1372101568762555e-18,
+          -0.1,
+          1.011323890150988
+        ],
+        "final_xyz_m": [
+          0.24891856107401905,
+          0.0024410143276729322,
+          1.0649999600897126
+        ],
+        "maximum_z_m": 1.1994044153180168,
+        "lift_m": 0.18808052516702878,
+        "transport_xy_m": 0.26917394276497614,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_004",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_004_attempt_05/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_004_attempt_05/bag",
+      "counts": {
+        "/joint_states": 3445,
+        "/pick_place/action": 742,
+        "/pick_place/stage": 6
+      },
+      "pose_metrics": {
+        "samples": 848,
+        "initial_xyz_m": [
+          -1.5020105230870186e-18,
+          -0.1,
+          1.0111219099469704
+        ],
+        "final_xyz_m": [
+          0.25349644258462645,
+          0.004707081318136907,
+          1.0649999859479702
+        ],
+        "maximum_z_m": 1.1994559396396485,
+        "lift_m": 0.1883340296926781,
+        "transport_xy_m": 0.27426997517268226,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": false,
+      "errors": [
+        "expected 8 stage events, got 6"
+      ]
+    },
+    {
+      "episode": "pick_place_005",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_005_attempt_07/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_005_attempt_07/bag",
+      "counts": {
+        "/joint_states": 3440,
+        "/pick_place/action": 748,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 847,
+        "initial_xyz_m": [
+          -1.2436740300883961e-18,
+          -0.1,
+          1.0111579064189735
+        ],
+        "final_xyz_m": [
+          0.2556400705598826,
+          0.005082014968544629,
+          1.064999932796969
+        ],
+        "maximum_z_m": 1.1997245510876295,
+        "lift_m": 0.18856664466865602,
+        "transport_xy_m": 0.2763947820522507,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_006",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_006_attempt_08/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_006_attempt_08/bag",
+      "counts": {
+        "/joint_states": 3660,
+        "/pick_place/action": 804,
+        "/pick_place/stage": 6
+      },
+      "pose_metrics": {
+        "samples": 910,
+        "initial_xyz_m": [
+          -2.3501034003682267e-18,
+          -0.1,
+          1.0111319089669712
+        ],
+        "final_xyz_m": [
+          0.2505557415020334,
+          0.0029519930312189593,
+          1.0649999838760664
+        ],
+        "maximum_z_m": 1.1992968933544035,
+        "lift_m": 0.18816498438743223,
+        "transport_xy_m": 0.2708824329275229,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": false,
+      "errors": [
+        "expected 8 stage events, got 6"
+      ]
+    },
+    {
+      "episode": "pick_place_007",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_007_attempt_09/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_007_attempt_09/bag",
+      "counts": {
+        "/joint_states": 3367,
+        "/pick_place/action": 843,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 931,
+        "initial_xyz_m": [
+          -3.931964310415631e-19,
+          -0.1,
+          1.0105979612989247
+        ],
+        "final_xyz_m": [
+          0.25391435368456733,
+          0.004728446162278352,
+          1.064999958585767
+        ],
+        "maximum_z_m": 1.1993131179668501,
+        "lift_m": 0.1887151566679255,
+        "transport_xy_m": 0.2746644251493389,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_008",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_008_attempt_10/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_008_attempt_10/bag",
+      "counts": {
+        "/joint_states": 3473,
+        "/pick_place/action": 894,
+        "/pick_place/stage": 6
+      },
+      "pose_metrics": {
+        "samples": 987,
+        "initial_xyz_m": [
+          -1.359961211973454e-18,
+          -0.1,
+          1.0108399375829458
+        ],
+        "final_xyz_m": [
+          0.256672794246933,
+          0.004868008497554399,
+          1.0649999793227691
+        ],
+        "maximum_z_m": 1.1994381619879788,
+        "lift_m": 0.18859822440503304,
+        "transport_xy_m": 0.27726922388316294,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": false,
+      "errors": [
+        "expected 8 stage events, got 6"
+      ]
+    },
+    {
+      "episode": "pick_place_009",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_009_attempt_11/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_009_attempt_11/bag",
+      "counts": {
+        "/joint_states": 3402,
+        "/pick_place/action": 897,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 979,
+        "initial_xyz_m": [
+          -9.445379517645709e-19,
+          -0.1,
+          1.0099920206868718
+        ],
+        "final_xyz_m": [
+          0.25268528449322997,
+          0.0037980315082592484,
+          1.064999971404834
+        ],
+        "maximum_z_m": 1.1992994016152354,
+        "lift_m": 0.18930738092836363,
+        "transport_xy_m": 0.27317372557479636,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_010",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_010_attempt_13/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_010_attempt_13/bag",
+      "counts": {
+        "/joint_states": 3745,
+        "/pick_place/action": 887,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 975,
+        "initial_xyz_m": [
+          -6.829322497483562e-19,
+          -0.1,
+          1.0106579554189299
+        ],
+        "final_xyz_m": [
+          0.2543736347461457,
+          0.004725289662204066,
+          1.0649999628063669
+        ],
+        "maximum_z_m": 1.199484635413415,
+        "lift_m": 0.1888266799944851,
+        "transport_xy_m": 0.27508786296163285,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_011",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_011_attempt_14/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_011_attempt_14/bag",
+      "counts": {
+        "/joint_states": 3452,
+        "/pick_place/action": 745,
+        "/pick_place/stage": 6
+      },
+      "pose_metrics": {
+        "samples": 858,
+        "initial_xyz_m": [
+          -1.049581163568405e-18,
+          -0.1,
+          1.0107679446389395
+        ],
+        "final_xyz_m": [
+          0.25774957217905853,
+          0.005115803697385041,
+          1.0649999546988453
+        ],
+        "maximum_z_m": 1.1997211912023003,
+        "lift_m": 0.18895324656336077,
+        "transport_xy_m": 0.27835979261638144,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": false,
+      "errors": [
+        "expected 8 stage events, got 6"
+      ]
+    },
+    {
+      "episode": "pick_place_012",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_012_attempt_15/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_012_attempt_15/bag",
+      "counts": {
+        "/joint_states": 3515,
+        "/pick_place/action": 783,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 877,
+        "initial_xyz_m": [
+          -1.9695932728130544e-18,
+          -0.1,
+          1.0111379083789718
+        ],
+        "final_xyz_m": [
+          0.25446407626720885,
+          0.0047580643974084545,
+          1.0649999585324428
+        ],
+        "maximum_z_m": 1.199382950740083,
+        "lift_m": 0.18824504236111128,
+        "transport_xy_m": 0.27518397149328205,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_013",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_013_attempt_16/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_013_attempt_16/bag",
+      "counts": {
+        "/joint_states": 3508,
+        "/pick_place/action": 785,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 878,
+        "initial_xyz_m": [
+          -1.2296826065822367e-18,
+          -0.1,
+          1.011083913670967
+        ],
+        "final_xyz_m": [
+          0.25662385926849135,
+          0.004682710945699818,
+          1.0649999859484043
+        ],
+        "maximum_z_m": 1.1995650981281345,
+        "lift_m": 0.18848118445716744,
+        "transport_xy_m": 0.2771538834597044,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_014",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_014_attempt_17/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_014_attempt_17/bag",
+      "counts": {
+        "/joint_states": 3732,
+        "/pick_place/action": 816,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 907,
+        "initial_xyz_m": [
+          -1.5512328289698085e-18,
+          -0.1,
+          1.0111999023029772
+        ],
+        "final_xyz_m": [
+          0.2557298292960747,
+          0.004498489497747557,
+          1.064999977339335
+        ],
+        "maximum_z_m": 1.1995575674755752,
+        "lift_m": 0.188357665172598,
+        "transport_xy_m": 0.2762565472511201,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_015",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_015_attempt_18/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_015_attempt_18/bag",
+      "counts": {
+        "/joint_states": 3841,
+        "/pick_place/action": 818,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 919,
+        "initial_xyz_m": [
+          -1.4837505179484962e-18,
+          -0.1,
+          1.0111679054389744
+        ],
+        "final_xyz_m": [
+          0.24990112249061475,
+          0.0024579428262281487,
+          1.0649999616841812
+        ],
+        "maximum_z_m": 1.1993884800909405,
+        "lift_m": 0.18822057465196607,
+        "transport_xy_m": 0.2700892464913253,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_016",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_016_attempt_19/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_016_attempt_19/bag",
+      "counts": {
+        "/joint_states": 3734,
+        "/pick_place/action": 794,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 889,
+        "initial_xyz_m": [
+          -1.6824821127226967e-18,
+          -0.1,
+          1.011163905830974
+        ],
+        "final_xyz_m": [
+          0.25206007550767795,
+          0.003984528678921365,
+          1.0649999261146925
+        ],
+        "maximum_z_m": 1.1992678244120198,
+        "lift_m": 0.1881039185810458,
+        "transport_xy_m": 0.27266658003780686,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_017",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_017_attempt_20/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_017_attempt_20/bag",
+      "counts": {
+        "/joint_states": 3731,
+        "/pick_place/action": 800,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 894,
+        "initial_xyz_m": [
+          -1.4465304909593202e-18,
+          -0.1,
+          1.01134588799499
+        ],
+        "final_xyz_m": [
+          0.254385742185044,
+          0.00511731658805522,
+          1.0649999598835704
+        ],
+        "maximum_z_m": 1.199480218723776,
+        "lift_m": 0.18813433072878616,
+        "transport_xy_m": 0.2752485350982074,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_018",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_018_attempt_21/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_018_attempt_21/bag",
+      "counts": {
+        "/joint_states": 3540,
+        "/pick_place/action": 784,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 878,
+        "initial_xyz_m": [
+          -1.4109834002754245e-18,
+          -0.1,
+          1.011265895834983
+        ],
+        "final_xyz_m": [
+          0.25290980955300496,
+          0.004941260848136673,
+          1.064999940211948
+        ],
+        "maximum_z_m": 1.1993066375053725,
+        "lift_m": 0.18804074167038953,
+        "transport_xy_m": 0.27381753047702023,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "episode": "pick_place_019",
+      "result_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_019_attempt_22/result.json",
+      "bag_path": "/workspace/artifacts/pick_place/data/rosbags/attempts/pick_place_019_attempt_22/bag",
+      "counts": {
+        "/joint_states": 3452,
+        "/pick_place/action": 749,
+        "/pick_place/stage": 8
+      },
+      "pose_metrics": {
+        "samples": 849,
+        "initial_xyz_m": [
+          -1.5695987165973316e-18,
+          -0.1,
+          1.01123189916698
+        ],
+        "final_xyz_m": [
+          0.2581440774144708,
+          0.004856693431332144,
+          1.0649999861809893
+        ],
+        "maximum_z_m": 1.1995023014575592,
+        "lift_m": 0.18827040229057923,
+        "transport_xy_m": 0.2786275127504832,
+        "checks": {
+          "lift": true,
+          "transport": true,
+          "goal_x": true,
+          "goal_y": true
+        },
+        "success": true
+      },
+      "valid": true,
+      "errors": []
+    }
+  ]
+}
